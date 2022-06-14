@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.finalproject">
+    <uses-permission android:name="android.permission.READ_CONTACTS">
+    </uses-permission>
+    <uses-permission android:name="android.permission.WRITE_CONTACTS"></uses-permission>
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.FinalProject">
+
+
+
+        <activity
+            android:name=".Mainadd"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="Mainadd.java" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".Mainupdate"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="Mainupdate.java" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".MainActivity2_CRUD"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="MainActivity2_CRUD.java" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".MainActivity2_details"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="MainActivity2_details.java" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity2_setting"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="MainActivity2_setting.java" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity2_Category"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="MainActivity2_Category.java" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity2Register"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="MainActivity2Register.java" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity2Login"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="MainActivity2Login.java" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
